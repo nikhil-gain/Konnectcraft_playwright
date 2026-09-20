@@ -1,0 +1,10 @@
+- npx playwright test : run all test files in headless
+- npx playwright show-report : shows report in html
+- npx playwright test --headed : in headed mode
+- npx playwright test mytest.spec.ts : run only intended files
+- npx playwright test mytest.spec.ts --project=chromium : only intended browser
+- npx playwright test mytest.spec.ts mytest.spec.ts : executed multiple inteded files
+- npx playwright test -g "title" : execute file which has the given keyword in the name of test. // g means global
+- npx playwright test --ui : run in ui mode
+- npx playwright test mytest.spec.ts --debug : run in step by step method
+ 
